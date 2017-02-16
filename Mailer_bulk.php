@@ -85,7 +85,7 @@ targets TEXT
         if(
             empty(static::$do_admin)
             OR empty($_SESSION['user']['username'])
-            OR $_SESSION['user']['username'] !== 'Ezriilc'
+            OR $_SESSION['user']['username'] !== 'Admin'
         ){
             return;
         }
